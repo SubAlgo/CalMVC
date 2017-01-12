@@ -5,7 +5,11 @@ public class CalculateMVC {
         CalModel cModel = new CalModel();
         CalController cControll =  new CalController(cView,cModel);
         
-        //cView.setVisible(true);
+        cView.setVisible(true);
+        
+        
+        
+        
     } 
     
 }
