@@ -1,5 +1,6 @@
 
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 import javax.swing.JOptionPane;
 
 /*
@@ -30,7 +31,10 @@ public class CalView extends javax.swing.JFrame {
     }
 
     public void setsum(float sum) {
-        txtsum.setText(Float.toString(sum));
+        //txtsum.setText(Float.toString(sum));
+       
+       txtsum.setText(new DecimalFormat("#,###.##").format(sum));
+         
     }
 
     //สร้าง Event ปุ่ม btncal
@@ -39,7 +43,7 @@ public class CalView extends javax.swing.JFrame {
         
     }
     
-    
+    //Method show ExceptionError
     void displayErrorMessage(String ErrorMessage) {
         JOptionPane.showMessageDialog(this, ErrorMessage);
     }
@@ -95,11 +99,12 @@ public class CalView extends javax.swing.JFrame {
         jLabel3.setText("จำนวนเงินที่ออม/วัน");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel4.setText("จำนวนเงินที่ออม/วัน");
+        jLabel4.setText("จำนวนเงินที่ออมได้");
 
         txtsum.setEditable(false);
         txtsum.setBackground(new java.awt.Color(255, 204, 255));
         txtsum.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        txtsum.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel5.setText("บาท");
