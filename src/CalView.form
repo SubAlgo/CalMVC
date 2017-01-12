@@ -38,9 +38,9 @@
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="txtmoney" min="-2" pref="199" max="-2" attributes="0"/>
                               <Component id="txtday" min="-2" pref="199" max="-2" attributes="0"/>
-                              <Component id="btncal" alignment="1" min="-2" pref="199" max="-2" attributes="0"/>
                           </Group>
                           <Component id="txtsum" alignment="1" min="-2" pref="199" max="-2" attributes="0"/>
+                          <Component id="btncal" alignment="1" min="-2" pref="199" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -86,20 +86,13 @@
                   <Component id="txtmoney" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="30" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="jLabel4" min="-2" pref="66" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtsum" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jLabel7" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
               <Component id="btncal" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                  <Component id="txtsum" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
           </Group>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
