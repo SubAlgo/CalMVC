@@ -27,7 +27,6 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" alignment="0" min="-2" pref="680" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" pref="149" max="-2" attributes="0"/>
@@ -48,9 +47,15 @@
                           <Component id="jLabel5" min="-2" pref="62" max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" pref="62" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="305" max="-2" attributes="0"/>
+                      <EmptySpace pref="52" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="305" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="32" max="32767" attributes="0"/>
           </Group>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
@@ -65,7 +70,10 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="168" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="168" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="168" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="jLabel2" min="-2" pref="49" max="-2" attributes="0"/>
@@ -210,5 +218,25 @@
         <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
       </Properties>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xe2b;&#xe23;&#xe37;&#xe2d;&#xa; &#xa;-&#xe27;&#xe31;&#xe19;&#xe17;&#xe35;&#xe48; 1 &#xe2d;&#xe2d;&#xe21; 2&#xe1a;&#xe32;&#xe17;&#xa;-&#xe27;&#xe31;&#xe19;&#xe17;&#xe35;&#xe48; 2 &#xe2d;&#xe2d;&#xe21; 4&#xe1a;&#xe32;&#xe17;&#xa;-&#xe27;&#xe31;&#xe19;&#xe17;&#xe35;&#xe48; 3 &#xe2d;&#xe2d;&#xe21; 6&#xe1a;&#xe32;&#xe17;&#xa;.&#xa;.&#xa;.&#xa;-&#xe27;&#xe31;&#xe19;&#xe17;&#xe35;&#xe48; 100 &#xe2d;&#xe2d;&#xe21; 200 &#xe1a;&#xe32;&#xe17;&#xa;&#xe42;&#xe14;&#xe22;&#xe1c;&#xe25;&#xe25;&#xe31;&#xe1e;&#xe18;&#xe4c;&#xe17;&#xe35;&#xe48;&#xe44;&#xe14;&#xe49;&#xe04;&#xe37;&#xe2d; &#xe1c;&#xe25;&#xe23;&#xe27;&#xe21;&#xe02;&#xe2d;&#xe07;&#xe01;&#xe32;&#xe23;&#xe2d;&#xe2d;&#xe21;&#xe17;&#xe31;&#xe49;&#xe07;&#xe2b;&#xe21;&#xe14;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>
